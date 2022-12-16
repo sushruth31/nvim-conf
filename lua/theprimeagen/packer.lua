@@ -29,6 +29,8 @@ return require('packer').startup(function(use)
         tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
 
+    use("sbdchd/neoformat")
+
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
     use('nvim-treesitter/playground')
     use('theprimeagen/harpoon')
@@ -62,6 +64,7 @@ return require('packer').startup(function(use)
         end,
     })
 
+
     use {
         'VonHeikemen/lsp-zero.nvim',
         requires = {
@@ -77,7 +80,6 @@ return require('packer').startup(function(use)
             { 'saadparwaiz1/cmp_luasnip' },
             { 'hrsh7th/cmp-nvim-lsp' },
             { 'hrsh7th/cmp-nvim-lua' },
-            { "MunifTanjim/prettier.nvim" },
 
 
             -- Snippets

@@ -35,7 +35,7 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("n", "Q", "<nop>")
 vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 
-vim.keymap.set("n", "<leader>fd", function()
+vim.keymap.set("n", "<leader>f", function()
    vim.lsp.buf.format()
 end)
 
@@ -47,6 +47,9 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
 vim.keymap.set("n", "<leader>w", "<cmd>write<CR>")
 vim.keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>")
+
 --window navigation
 vim.keymap.set("n", "<C-h>", "<C-w>h")
+vim.keymap.set("n", "<C-j>", "<C-w>j")
 
+vim.keymap.set("n", "<leader>ld", "<cmd>TroubleToggle<CR>")
