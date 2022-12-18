@@ -21,6 +21,7 @@ local keymap = vim.keymap.set
 vim.cmd[[autocmd BufWritePre *.js Neoformat]]
 vim.cmd[[autocmd BufWritePre *.ts Neoformat]]
 vim.cmd[[autocmd BufWritePre *.tsx Neoformat]]
+vim.cmd[[autocmd BufWritePre *.rs !cargo fmt]]
 
 
 
