@@ -21,7 +21,6 @@ local keymap = vim.keymap.set
 vim.cmd[[autocmd BufWritePre *.js Neoformat]]
 vim.cmd[[autocmd BufWritePre *.ts Neoformat]]
 vim.cmd[[autocmd BufWritePre *.tsx Neoformat]]
-vim.cmd[[autocmd BufWritePre *.rs !cargo fmt]]
 
 
 
@@ -47,3 +46,4 @@ vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
 vim.g.copilot_no_tab_map = true
 vim.api.nvim_set_keymap("i", "<C-j>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
+vim.g.rustfmt_autosave = 1

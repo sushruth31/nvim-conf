@@ -20,6 +20,7 @@ return require('packer').startup(function(use)
             --vim.cmd('colorscheme rose-pine')
         end
     })
+    use("rust-lang/rust.vim")
 
     use {
         'nvim-tree/nvim-tree.lua',
