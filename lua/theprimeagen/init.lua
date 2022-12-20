@@ -23,7 +23,6 @@ vim.cmd[[autocmd BufWritePre *.ts Neoformat]]
 vim.cmd[[autocmd BufWritePre *.tsx Neoformat]]
 
 
-
 autocmd('TextYankPost', {
   group = yank_group,
   pattern = '*',
