@@ -56,4 +56,3 @@ vim.keymap.set("n", "<C-k>", "<C-w>k")
 --new vertical split and navigate to it
 vim.keymap.set("n", "<leader>n", "<cmd>vsplit<CR><C-w>l")
 
-vim.keymap.set("n", "<leader>ld", "<cmd>TroubleToggle<CR>")
