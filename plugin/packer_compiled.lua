@@ -79,6 +79,16 @@ _G.packer_plugins = {
     path = "/Users/sushruth/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["Onedarker.nvim"] = {
+    loaded = true,
+    path = "/Users/sushruth/.local/share/nvim/site/pack/packer/start/Onedarker.nvim",
+    url = "https://github.com/lunarvim/Onedarker.nvim"
+  },
+  catppuccin = {
+    loaded = true,
+    path = "/Users/sushruth/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/sushruth/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -104,20 +114,10 @@ _G.packer_plugins = {
     path = "/Users/sushruth/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["colorbuddy.vim"] = {
-    loaded = true,
-    path = "/Users/sushruth/.local/share/nvim/site/pack/packer/start/colorbuddy.vim",
-    url = "https://github.com/tjdevries/colorbuddy.vim"
-  },
   ["copilot.vim"] = {
     loaded = true,
     path = "/Users/sushruth/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
-  },
-  ["gruvbuddy.nvim"] = {
-    loaded = true,
-    path = "/Users/sushruth/.local/share/nvim/site/pack/packer/start/gruvbuddy.nvim",
-    url = "https://github.com/tjdevries/gruvbuddy.nvim"
   },
   harpoon = {
     loaded = true,

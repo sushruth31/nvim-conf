@@ -13,6 +13,10 @@ return require('packer').startup(function(use)
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
 
+    use "lunarvim/Onedarker.nvim"
+
+    use { "catppuccin/nvim", as = "catppuccin" }
+
     use({
         'rose-pine/neovim',
         as = 'rose-pine',

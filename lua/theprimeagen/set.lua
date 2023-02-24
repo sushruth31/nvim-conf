@@ -1,5 +1,5 @@
-vim.opt.guicursor = ""
-
+--vim.opt.guicursor = ""
+vim.opt.guicursor = "i:ver25"
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -33,6 +33,14 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
+
+
+-- Highlight current line
+vim.wo.cursorline = true
+vim.cmd('highlight CursorLine guibg=#0f0f0f')
+vim.wo.cursorcolumn = true
+-- Set the highlight color for CursorColumn
+vim.cmd('highlight CursorColumn guibg=#0f0f0f')
 
 
 
