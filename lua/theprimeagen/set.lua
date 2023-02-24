@@ -38,10 +38,10 @@ vim.g.mapleader = " "
 -- Highlight current line
 vim.opt.cursorline = true
 vim.opt.cursorcolumn = true
-vim.cmd('highlight CursorLine guibg=#0f0f0f')
 
 vim.cmd('augroup highlight_cursor')
 vim.cmd('autocmd!')
 vim.cmd('autocmd VimEnter,WinEnter,BufWinEnter * highlight CursorColumn guibg=#0f0f0f')
+vim.cmd('autocmd VimEnter,WinEnter,BufWinEnter * highlight CursorLine guibg=#0f0f0f')
 vim.cmd('augroup END')
 
